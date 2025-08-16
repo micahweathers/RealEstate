@@ -12,6 +12,18 @@ a{
     color: white;
 }
 
+p {
+    line-height: 2;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
 /*Header*/
 
 .main-header{
@@ -23,11 +35,48 @@ a{
 }
 .navigation-bar{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     height: 100px;
     align-items: center;
 }
+
 .menu a{
-    margin-right: 10px;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: blue;
+}
+
+.menu a:last-of-type {
+    margin-right: 0px;
+}
+
+/*about*/
+
+.flex-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*houses*/
+
+.house-item {
+    background-color: #dedede;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+
+.btn-details{
+    display: block;
+    background-color: rgba(249, 129, 0, 0.773);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.house-item-text {
+    padding: 20px;
 }
