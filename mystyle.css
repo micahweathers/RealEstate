@@ -80,3 +80,27 @@ img {
 .house-item-text {
     padding: 20px;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.list-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.list-items div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.price-color {
+    color: rgb(99, 161, 6);
+}
