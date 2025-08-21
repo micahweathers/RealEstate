@@ -211,3 +211,43 @@ footer {
     padding: 5px;
     margin-right: 10px;
 }
+
+/*Tablet View*/
+
+@media((min-width:601px) and (max-width:768px)) {
+    .flex-about, .flex-about div, .flex-container, .house-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .flex-about img, .house-item-img {
+        max-width: 20%;
+        max-height: auto;
+    }
+
+    .house-item-text {
+        padding: 10px;
+    }
+}
+
+/*Phone View*/
+
+@media((max-width:600)){
+    .flex-about, .flex-about div, .flex-container, .house-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .flex-about img, .house-item-img {
+        max-width: 20%;
+        max-height: auto;
+    }
+
+    .house-item-text {
+        padding: 10px;
+    }
+}
