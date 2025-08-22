@@ -60,17 +60,74 @@ img {
 .menu a:last-of-type {
     margin-right: 0px;
 }
+/*Blog*/
+
+.blog1-img {
+    background-image: url(./img/blog4.jpg);
+    height: 300px;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    margin-top: 55px;
+    border: 3px solid black;
+    border-radius: 35px;
+}
+
+.blog2-img {
+    background-image: url(./img/blog3.jpg);
+    height: 300px;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    border: 3px solid black;
+    border-radius: 35px;
+}
+
+.blog-page {
+    background-color: rgb(50, 50, 50);
+}
 
 /*about*/
+
+.about-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-contact {
+    margin-top: 150px;
+    background-color: #dedede;
+    border-radius: 20%;
+    padding: 0px 20px 20px 20px;
+}
+
+.about-sections h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.about-item{
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+.about-item p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+/*Index*/
 
 .flex-about {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
-/*houses*/
-
 .house-item {
     background-color: #dedede;
     margin-bottom: 20px;
